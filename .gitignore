@@ -1,0 +1,13 @@
+# Obsidian internal files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/**/*.js
+.obsidian/plugins/**/data.json
+
+# os cache file
+.DS_Store
+Thumbs.db
+
+# log and temporary files
+*.log
+
