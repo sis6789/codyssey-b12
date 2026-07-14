@@ -1,169 +1,162 @@
-# 구원 메시지 전파와 대전충만교회 초청 10초 영상 제작
+# [AI 도구 학습] 멀티모달 콘텐츠 제작 최종 과제 보고서
 
-> 💡 힌트: 브랜드명과 프로젝트를 한 문장으로 소개하세요. 예: "가상 브랜드 ○○의 10초 광고 영상 제작 프로젝트"
+## 1. 브랜드 아이덴티티 및 캠페인 정의
 
----
+- **브랜드명**: 리턴 (Re:Turn) — _내 삶의 방향을 예수님께로 돌리다_
+    
+- **타겟**: 인본주의 사조 속에서 극심한 경쟁 위주 사회에 신음하는 10~20대 현대 청년들
+    
+- **톤앤매너**: 시네마틱, 다크 디지털 아트에서 신성하고 따뜻한 금빛(Divine Grace)으로의 반전, 희망찬 웰컴 톤
+    
+- **차별점 (USP)**: 청년들의 현실적 고통(경쟁)을 위로하고, 오직 ‘영접’이라는 단순하고 명확한 구원의 메시지를 제시한 뒤, 교회를 통한 공동체적 ‘성장’으로 연결
+    
+- **핵심 메시지 (한 문장)**: **"예수님은 단지 당신이 그 손을 잡고 영접하기만을 기다리십니다."**
+    
+- **광고 목적**: 인지 및 전환 (고통받는 청년들을 위로하고 대전충만교회 출석 권유)
+    
 
-## 1. 프로젝트 개요
+## 2. 사용 도구 목록 및 파이프라인 설계
 
-- **과제명**: 구원 메시지 전파와 대전충만교회 초청 10초 영상 제작
-- **제작 기간**: 2026.7.10 - 2026.7.17
-- **최종 영상 파일명**: ==cm-video.mp4==
-- **스토리보드 PDF 파일명**: ==cm-storyboard.pdf==
+멀티모달 제작의 효율성과 맥락 제어의 용이성을 고려하여 **[세트 B]** 조합을 최종 선택하여 파이프라인을 구축했습니다.
 
-> 💡 힌트: 제출물 2개(스토리보드 PDF 1개 + MP4 1개)의 파일명을 정확히 적으세요. 파일명 규칙은 자유지만 일관성을 지켜야 합니다.
+- **이미지 생성**: **DALL-E 3** (선택 이유: 한국인 청년의 정서와 종교적 맥락, 교회 이름 등의 텍스트 삽입을 가장 직관적이고 정확하게 반영함)
+    
+- **비디오 생성**: **Runway Gen-3 Alpha** (선택 이유: 텍스트 프롬프트 제어력이 높아 원본 이미지의 화풍을 깨지 않고 정밀한 모션을 연출함)
+    
+- **오디오 생성**: **ElevenLabs** (선택 이유: 자연스럽고 감정선이 살아있는 AI 보이스 내레이션 및 고품질 효과음 동시 생성 가능)
+    
+- **최종영상 제작(통합 편집)**: **Vrew** (선택 이유: 음성 인식을 통한 자동 자막 매칭과 컷 편집이 직관적이며 10초 타임라인 제어에 용이함)
+    
+- **도구 접근성 제한 대비 대체 도구**: Midjourney(이미지 대안) / Kling, Luma(비디오 대안) / Suno, Udio(오디오 대안)
+    
 
----
+## 3. 씬(Scene)별 스토리보드 상세
 
-## 2. 브랜드 아이덴티티
+### 🎬 씬 1 (Intro: 0~3초)
 
-- **브랜드명**:  안식과 평강
-- **타겟**: 기독교와 예수님을 모르고 자신의 죄악을 느끼며 영적 절망감으로 고통 받는 사람들
-- **톤앤매너**: 엄마의 포근함을 느끼고 의지하고 싶은 신뢰감을 줄 수 있는 중년 여성의 이미지와 목소리
-- **차별점(USP)**: 인간 능력으로도, 세상 그 누구도 줄 수 없는 영적 치료제는 예수 믿어 구원받는 것 뿐이다.
-- **광고 목적** (인지/전환/리텐션 등): 세상의 능력으로 영적 갈급함을 구하려는 사람들의 인지 및 전환을 제시.
-- **핵심 메시지 (한 문장)**: 구원은 오직 예수님!
+- **씬 길이**: 3초
+    
+- **목적**: 무한 경쟁 사회 속에서 출구를 찾지 못해 고립된 청년의 고통 시각화
+    
+- **화면 구성**: 차가운 블루·그레이 톤의 삭막한 미래 도시 빌딩 숲 밤거리, 홀로 주저앉아 고개를 숙이고 무력감을 느끼는 20대 한국인 청년의 뒷모습.
+    
+- **내레이션 (카피)**: "끝없는 경쟁, 탈출구는 없을까?"
+    
+- **사용 도구 및 목적**:
+    
+    - 이미지: DALL-E 3 (고립된 청년의 다크 시네마틱 키 비주얼 확보)
+        
+    - 비디오: Runway Gen-3 Alpha (배경 네온사인만 타임랩스로 빠르게 흐르게 하여 청년의 멈춰진 절망감 극대화)
+        
+    - 오디오: ElevenLabs (낮고 차분한 청년 남성 AI 보이스 생성)
+        
+- **입력 프롬프트 (원문)**:
+    
+    - _DALL-E 3_: `A cinematic 3d digital art style illustration of a lonely 20-year-old South Korean male youth, sitting on the cold dark street corner of a futuristic neon-lit city at night. He is holding his head in his hands, looking completely exhausted and full of despair from fierce competition. Cold blue and grey color palette, dark moody atmosphere, soft dramatic lighting, ultra-detailed.`
+        
+    - _Runway_: `Slow subtle breathing motion of the young man sitting on the street. In the background, the neon signs of the high-rise buildings flicker rapidly and traffic lights blur past in a time-lapse effect. Dramatic low angle, camera stays still, high contrast, continuous cinematic movement.`
+        
+- **출력 결과 요약**: 차가운 도시 질감과 청년의 고립감이 대비되는 3초 오프닝 영상 소스 완성
+    
+- **생성 파일명**: `scene01_image.jpg` / `scene01_video.mp4` / `scene01_narration.mp3`
+    
 
-> 💡 힌트: "누구에게, 어떤 느낌으로, 뭐가 다른지"를 적고, 광고가 뭘 노리는지(알리기? 사게 하기?)와 딱 한 문장짜리 핵심 메시지를 쓰세요.
+### 🎬 씬 2 (Body: 3~7초)
 
----
+- **씬 길이**: 4초
+    
+- **목적**: 예수님이 기다리고 계시며, 오직 그를 영접하기만 하면 된다는 구원의 핵심 메시지 전달
+    
+- **화면 구성**: 어둠을 깨고 쏟아지는 따뜻한 금빛 줄기. 인자한 실루엣의 예수님 손이 다가와 청년의 차가운 손을 위로하듯 포개어 맞잡음.
+    
+- **내레이션 (카피)**: "예수님이 널 기다리셔. 오직 영접함으로."
+    
+- **사용 도구 및 목적**:
+    
+    - 이미지: DALL-E 3 (구원과 따뜻한 온기가 느껴지는 두 손의 클로즈업 이미지 생성)
+        
+    - 비디오: Runway Gen-3 Alpha (두 손이 맞잡히는 순간 황금빛 광원이 폭발하듯 퍼져나가는 극적 연출)
+        
+    - 오디오: ElevenLabs (따뜻하고 울림이 있는 위로 톤의 보이스 및 빛 확산 효과음 생성)
+        
+- **입력 프롬프트 (원문)**:
+    
+    - _DALL-E 3_: `A cinematic 3d digital art style illustration, close-up shot of two hands connecting. A warm, glowing golden hand of Jesus Christ is gently holding and lifting up the cold, trembling hand of the exhausted South Korean young man. Divine bright golden light emitting from the center of the touch, breaking the darkness. Emotional, hopeful, divine grace, soft dramatic lighting.`
+        
+    - _Runway_: `The two hands firmly and gently clasp together. At the exact moment of the touch, a massive burst of warm golden light emanates from the palms, rapidly spreading across the screen and washing away the dark blue shadows. Smooth continuous motion, cinematic lighting shift.`
+        
+- **출력 결과 요약**: 어둠에서 빛으로 전환되며 감정을 극대화하는 4초 클라이맥스 소스 완성
+    
+- **생성 파일명**: `scene02_image.jpg` / `scene02_video.mp4` / `scene02_narration.mp3` / `scene02_sfx.mp3`
+    
 
-## 3. 최종 영상 스펙
+### 🎬 씬 3 (Outro / CTA: 7~10초)
 
-- **길이**: 10초 (10초 이내 필수)
-- **해상도**: (권장 1080p, 최소 720p)
-- **프레임레이트**: (24~30fps)
-- **코덱**: 비디오 H.264 / 오디오 AAC
-- **화면 비율**:
+- **씬 길이**: 3초
+    
+- **목적**: 교회 출석을 통한 영적 성장 도모 및 최종 목적인 대전충만교회 출석 권유 (CTA)
+    
+- **화면 구성**: 푸르고 희망찬 하늘 아래 모던하고 아름다운 교회 건물 외관. 상단에 **'대전충만교회'** 문구가 깔끔하게 인그레이빙되어 있음. 평안한 표정의 청년이 활짝 열린 교회 문 안쪽의 밝은 빛을 향해 걸어 들어감.
+    
+- **내레이션 (카피)**: (자막 동시 출력) "함께 성장하는 곳, 대전충만교회"
+    
+- **사용 도구 및 목적**:
+    
+    - 이미지: DALL-E 3 (정확한 한글 타이포그래피가 적용된 대전충만교회 전경 이미지 생성)
+        
+    - 비디오: Runway Gen-3 Alpha (교회와 십자가를 향해 부드럽게 무빙하는 슬로우 카메라 트래킹 카메라 워크 연출)
+        
+    - 오디오: ElevenLabs (신뢰감 있고 또렷하게 마무리지어 주는 내레이션 보이스 생성)
+        
+- **입력 프롬프트 (원문)**:
+    
+    - _DALL-E 3_: `A cinematic 3d digital art style illustration of a modern, beautiful church building exterior with a clear glowing cross. Above the entrance door, the Korean text '대전충만교회' is clearly and elegantly engraved in a clean font. The South Korean young man, now looking peaceful, is walking towards the wide-open, bright doors of the church. Sunny day, hopeful atmosphere, volumetric lighting.`
+        
+    - _Runway_: `Smooth slow cinematic camera tracking shot behind the young man as he walks towards the bright open entrance of the church. The camera gently pans up towards the glowing cross and the text '대전충만교회'. Warm sun flares, inspirational and welcoming atmosphere, seamless movement.`
+        
+- **출력 결과 요약**: 브랜드(교회명) 인지와 초청의 메시지가 명확히 전달되는 3초 엔딩 컷 완성
+    
+- **생성 파일명**: `scene03_image.jpg` / `scene03_video.mp4` / `scene03_narration.mp3`
+    
 
-> 💡 힌트: 완성된 MP4의 실제 정보를 그대로 적으세요. 10초를 넘기면 안 됩니다.
+## 4. 프롬프트 엔지니어링 개선 로그 (요약)
 
----
+- **개선 대상**: 씬 2 (구원과 영접) 이미지 생성 단계
+    
+- **수정 전 프롬프트**: `A man meeting Jesus and holding hands in dark city, holy light.`
+    
+    - _문제점_: 인물의 생김새가 서양인 가이드라인으로 무작위 생성되었고, 손을 잡는 구도가 부자연스러우며, 배경인 도시와 신성한 광원이 뭉개져 브랜드가 추구하는 세련된 3D 디지털 아트 느낌이 살지 않음.
+        
+- **수정 후 프롬프트**: `A cinematic 3d digital art style illustration, close-up shot of two hands connecting. A warm, glowing golden hand of Jesus Christ is gently holding and lifting up the cold, trembling hand of the exhausted South Korean young man... (이하 씬2 원문과 동일)`
+    
+- **개선 결과**: 화풍의 스타일(`3d digital art style`)을 명확히 지정하고 인물의 국적(`South Korean`) 및 감정 상태(`exhausted`, `trembling`), 광원의 세부 묘사(`glowing golden hand`)를 명시하여 타겟층(청년)이 몰입할 수 있는 완벽한 톤앤매너 일관성을 확보함.
+    
 
-## 4. 사용 AI 도구 목록
+## 5. 최종 통합 편집 전략 및 영상 스펙
 
-| 역할 | 사용 도구 | 선택 이유 | 대체 도구(백업) |
-|---|---|---|---|
-| 이미지 생성 (1종 이상 필수) | | | |
-| 비디오 생성/변환 (1종 이상 필수) | | | |
-| 오디오 생성 (1종 이상 필수) | | | |
-| 통합 편집 (컷/자막/색보정만) | | | |
+- **편집 도구**: **Vrew**
+    
+- **통합 방식**:
+    
+    1. ElevenLabs에서 생성한 오디오 소스 3개를 순서대로 임포트하여 AI 가독성 자막 라인을 자동 매칭함.
+        
+    2. 각 내레이션 음성 길이에 맞춰 Runway에서 제작한 3개의 영상 클립(mp4)을 배치 및 미세 컷 편집함.
+        
+    3. 씬 2가 시작되는 3초 타임라인 지점에 `scene02_sfx.mp3` 효과음을 레이어링하여 시청각적 반전 효과를 극대화함.
+        
+    4. 7~10초 엔딩 구간(씬 3)에는 화면 하단에 대전충만교회의 실제 로고 이미지와 약도 자막을 오버레이 고정하여 최종 브랜딩 장치(CTA)를 완성함.
+        
 
-> 💡 힌트: 이미지·비디오·오디오 각 1종 이상은 필수이고, "왜 그 도구를 골랐는지" 한 줄씩 쓰세요. 대기열/크레딧 문제에 대비한 대체 도구도 각각 1개 이상 이름만이라도 적어야 합니다. 편집 툴(Premiere, CapCut 등)은 컷 편집·자막·간단 색보정·오디오 레벨 조정 용도만 허용됩니다.
+### 🎬 최종 출력 영상 파일 스펙
 
----
-
-## 5. 제작 파이프라인 (기획 → 프롬프트 → 결과물 → 통합 편집)
-
-1. **기획**:
-2. **이미지 생성**:
-3. **비디오 변환**:
-4. **오디오 생성**:
-5. **통합 편집**:
-
-> 💡 힌트: 어떤 순서로 뭘 만들었고, 각 단계에서 왜 그렇게 의사결정했는지 쓰세요. "도구를 많이 쓴 것"이 아니라 "흐름을 스스로 설계했다"는 게 드러나야 합니다.
-
----
-
-## 6. 씬 구성 요약
-
-| 씬 번호 | 길이(초) | 목표 메시지 | 사용 도구 | 결과 파일명 |
-|---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-
-> 💡 힌트: 스토리보드 PDF의 씬을 요약해서 옮기세요. PDF에는 씬마다 7개 필수 필드(씬 번호/길이, 목표 메시지 한 문장, 화면 구성, 내레이션·카피, 사용 도구와 목적, 입력 프롬프트 원문 + 출력 결과 한 줄 요약, 결과 파일명 또는 링크)가 빠짐없이 있어야 합니다.
-
----
-
-## 7. 스토리라인 구조
-
-- **선택한 구조**: (기승전결 / 명확한 메시지 전달 중 하나)
-- **구조 설명**:
-- **마지막 3~5초의 브랜드 인지 장치**: (로고 / 브랜드명 / 슬로건 / CTA 중 1개 이상)
-
-> 💡 힌트: 단순 컷 나열이 아니라는 걸 보여주세요. "문제 제시 → 전환 → 해결" 흐름이거나 "누구에게 어떤 가치를 주는지"가 드러나야 하고, 영상 끝 3~5초에 브랜드를 알아볼 장치가 뭔지 적으세요.
-
----
-
-## 8. 프롬프트 수정 전/후 기록 (최소 1개 씬 필수)
-
-- **대상 씬**:
-- **수정 전 프롬프트**:
-- **문제점**:
-- **수정 후 프롬프트**:
-- **바꾼 이유(의도)**:
-- **결과 변화**:
-
-> 💡 힌트: 프롬프트를 어떻게 고쳤고 왜 고쳤는지, 결과가 어떻게 달라졌는지 쓰세요. 최소 1개 씬은 반드시 기록해야 합니다.
-
----
-
-## 9. AI 요소 포함 확인 (필수 체크)
-
-- [ ] AI 생성 시각 요소(이미지/영상) 포함
-- [ ] AI 생성 청각 요소(음성/효과음/배경음악 중 1개 이상) 포함
-
-> 💡 힌트: 영상에 둘 다 반드시 들어가야 합니다. 어떤 씬에 어떤 요소가 들어갔는지 간단히 덧붙이면 좋아요.
-
----
-
-## 10. 제약 사항 준수 확인
-
-- [ ] 직접 촬영 영상 미사용
-- [ ] 유료 스톡 영상 미사용
-- [ ] 모든 시각·청각 소스가 생성형 AI 결과물
-- [ ] 딥페이크·혐오·선정성·폭력 등 유해 콘텐츠 없음
-- [ ] 편집 툴은 통합 편집(컷/자막/색보정/오디오 레벨) 용도로만 사용
-
-> 💡 힌트: 전부 체크할 수 있어야 합니다. 애매한 부분이 있으면 어떻게 처리했는지 한 줄 설명을 다세요.
-
----
-
-## 11. 크레딧/비용 관리 전략
-
-- **적용한 전략**:
-
-> 💡 힌트: 이미지 단계에서 스토리보드를 확정한 뒤 영상 변환을 시도했는지 쓰고, 크레딧이 부족했다면 다음 중 뭘 택했는지 적으세요 — ① 씬 수 줄이기 ② 정지 이미지 + 짧은 모션(패닝/줌/루프) 중심 구성 ③ 스타일 레퍼런스 고정으로 재생성 줄이기.
-
----
-
-## 12. 캐릭터/스타일 일관성 유지 (권장)
-
-- **사용한 기능/파라미터**: (예: cref, sref, ControlNet 등)
-- **고정한 레퍼런스와 이유**:
-
-> 💡 힌트: 캐릭터나 화풍이 씬마다 달라지지 않게 뭘 고정했는지 쓰세요. 사용했다면 "어떤 파라미터/레퍼런스를 고정했는지" 설명할 수 있어야 합니다. 안 썼다면 이 섹션은 생략 가능.
-
----
-
-## 13. 도구 비교 및 회고
-
-- **같은 요구를 여러 도구로 시도한 경우, 결과 차이**:
-- **각 도구의 강점/약점**:
-- **어려웠던 점과 해결 과정**: (캐릭터·화풍 불일치, 해상도·비율 혼재, 오디오 톤 미스매치, 크레딧·대기열 이슈 등)
-- **배운 점**:
-
-> 💡 힌트: 과제 목표 4가지(도구별 역할·차이 설명 / 프롬프트 설계·수정 과정 / 도구 간 결과 비교와 선택 이유 / 해상도·비율·톤앤매너 정리 및 통합 흐름)를 스스로 설명할 수 있음을 보여주는 섹션입니다.
-
----
-
-## 14. 보너스 과제 (선택, 한 경우만 작성)
-
-- [ ] **보너스 1 – 립싱크**: 인물 발화 장면(1개 이상)에서 입모양과 대사를 맞춘 방법:
-- [ ] **보너스 2 – 다른 도구로 재제작**: 이미지 또는 비디오 파트를 바꿔 재제작한 씬(1~2개)과 결과 비교:
-- [ ] **보너스 3 – 화면 비율 버전 2개 이상**: 제작한 비율(예: 16:9 / 9:16 / 1:1)과 파일명:
-
-> 💡 힌트: 한 항목이라도 했다면 뭘 어떻게 했는지 적고, 안 했으면 섹션 자체를 지워도 됩니다.
-
----
-
-## 15. 산출물 파일 목록
-
-| 파일명 | 종류 | 설명 |
-|---|---|---|
-| | 스토리보드 PDF | |
-| | 최종 영상 MP4 | |
-| | 씬별 생성 소스 | |
-
-> 💡 힌트: 제출·참고용 파일을 전부 나열하세요. 파일명 규칙은 자유지만 일관성이 있어야 합니다(예: scene01_keyvisual.png).
+- **파일명**: `Return_Branding_DaejeonChungman.mp4`
+    
+- **길이**: 10초
+    
+- **해상도**: 1920x1080 (16:9 가로형 표준 광고 스펙)
+    
+- **프레임레이트**: 30fps
+    
+- **비디오 코덱**: H.264
+    
+- **오디오 코덱**: AAC
