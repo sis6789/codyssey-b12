@@ -7,5 +7,6 @@
     "downscalePercent": 100
   },
   "promptDelete": false,
-  "newFileLocation": "folder"
+  "newFileLocation": "folder",
+  "alwaysUpdateLinks": true
 }
