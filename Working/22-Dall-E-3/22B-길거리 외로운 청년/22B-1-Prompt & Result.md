@@ -1,0 +1,3 @@
+- A cinematic 3d digital art style illustration of a lonely 20-year-old South Korean male youth, sitting on the cold dark street corner of a futuristic neon-lit city at night. He is holding his head in his hands, looking completely exhausted and full of despair from fierce competition. Cold blue and grey color palette, dark moody atmosphere, soft dramatic lighting, ultra-detailed.
+	- 그림1 ![[22B-1-1.jpg]]
+	- 그림2 ![[22B-1-2.jpg]]
