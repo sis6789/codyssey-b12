@@ -96,7 +96,8 @@
 	- 과제 지침의 동영상 제작 규격 입력
 	- 기존 씬1, 2, 3, 4, 5 이미지를 입력
 - 생성된 동영상
-	- ![](Working/24-최종영상/Movie-Final.mp4)
+	- 파일명: Working/24-최종영상/Movie-Final.mp4
+	- https://youtu.be/qmIxdHOTWCY 
 
 ## 5. 씬4 프롬프트 개선 로그
 
