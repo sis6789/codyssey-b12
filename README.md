@@ -127,8 +127,7 @@
 ## 8. 최종 영상 파일 정보
 
 - 파일명: Working/24-최종영상/Movie-Final.mp4
-	- https://youtu.be/qmIxdHOTWCY
-	- ![FullSize](https://youtu.be/qmIxdHOTWCY)
+	- https://youtu.be/qmIxdHOTWCY 
 - 길이: 10초
 - 비디오 규격
 	- ![](Working/24-최종영상/비디오%20규격.jpg)
@@ -138,4 +137,5 @@
 	- 입력 순서대로 동영상을 만들어라. 동영상은 Yotube 숏폼 형태의 9:16 화면 크기로 한다.
 - 입력은 정상 동영상 제작 입력과 같음
 - 생성 동영상
-	- https://www.youtube.com/shorts/XQATV3OUcCQ
+	- 파일명: Working/25-Short-Form/Movie-Final-Short.mp4
+	- htps://www.youtube.com/shorts/XQATV3OUcCQ
