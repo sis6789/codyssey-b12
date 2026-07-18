@@ -3,4 +3,3 @@
 	- 입력은 16:9 화면 제작과 동일한 입력을 사용한다.
 - 생성 동영상
 	- [](Movie-Final-Short.mp4)
-	- ![](Movie-Final-Short-webm.webm)

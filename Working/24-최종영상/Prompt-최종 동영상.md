@@ -13,5 +13,5 @@
 		- ![](../22-Dall-E-3%20&%20Nano%20Banana2/22D-대전충만교회/D2-당신을%20기다립니다..png)
 - 동영상
 	- 최종 동영상
-		- [](Movie-Final.mp4)
+		- Movie-Final.mp4
 		- ![](Movie-Final-webm.webm)
